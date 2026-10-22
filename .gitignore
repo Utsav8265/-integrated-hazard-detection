@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Generated files
+outputs/*
+!outputs/.gitkeep
+
+# AI model weights
+models/*.pt
+models/*.pth
+models/*.onnx

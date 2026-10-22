@@ -1,0 +1,8 @@
+ultralytics>=8.3.0
+opencv-python>=4.9
+streamlit>=1.36
+streamlit-folium>=0.20
+folium>=0.17
+pandas>=2.0
+requests>=2.31
+imageio-ffmpeg>=0.5
