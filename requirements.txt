@@ -1,8 +1,10 @@
-ultralytics>=8.3.0
-opencv-python>=4.9
-streamlit>=1.36
+ultralytics==8.3.0
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+streamlit>=1.36,<2.0
 streamlit-folium>=0.20
 folium>=0.17
 pandas>=2.0
 requests>=2.31
 imageio-ffmpeg>=0.5
+Pillow>=10.0
