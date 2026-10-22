@@ -106,13 +106,20 @@ st.markdown(
         margin-bottom: 0.5rem;
     }
 
-    .notice {
-        padding: 0.8rem 1rem;
-        border-radius: 10px;
-        background-color: #eff6ff;
-        border-left: 4px solid #2563eb;
-        margin-bottom: 1rem;
-    }
+.notice {
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    background-color: #e8f1ff;
+    color: #17365d !important;
+    border-left: 5px solid #2563eb;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.notice strong {
+    color: #12305a !important;
+}
 
 div[data-testid="stMetric"] {
     background-color: #1e293b;
